@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelector(".container"),n=document.createElement("p");n.innerHTML="Hello webpack",e.appendChild(n)}),!1);

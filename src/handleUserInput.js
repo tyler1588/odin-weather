@@ -1,4 +1,4 @@
-import displayWeatherData from "./displayWeatherData";
+import updateWeatherData from "./updateWeatherData";
 
 export default function handleUserInput(){
     const locationInput = document.querySelector('.location-input');
@@ -6,6 +6,6 @@ export default function handleUserInput(){
         event.preventDefault();
         const formData = event.target;
         const city = formData.elements['city'].value;
-        await displayWeatherData(city);
+        await updateWeatherData(city);
     })
 }

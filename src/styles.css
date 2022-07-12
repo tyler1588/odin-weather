@@ -15,12 +15,13 @@ body {
     align-items: center;
     padding-left: 1rem;
     height: 125px;
-    background-color: #616161;
+    background-color: #282828;
     color: white;
 }
 
 .main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
@@ -49,4 +50,17 @@ body {
 
 .title {
     font-size: 4rem;
+}
+
+.weather-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #282828;
+    color: white;
+    border-radius: 10px;
+    min-width: 60vw;
+    max-width: 90vw;
 }

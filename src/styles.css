@@ -1,9 +1,52 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./OpenSans-Regular.ttf');
+  }
+
 body {
     margin: 0;
+    font-family: 'OpenSans';
 }
 
 
 .header {
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    height: 125px;
     background-color: #616161;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.location-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.city-input {
+    height: 44px;
+}
+
+.location-submit {
+    height: 50px;
+}
+.city-input, .location-submit {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.title {
+    font-size: 4rem;
 }
